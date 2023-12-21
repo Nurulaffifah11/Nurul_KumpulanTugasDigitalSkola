@@ -32,54 +32,23 @@ public class SeleniumTugas {
         driver.findElement(By.xpath("//button[@class='md']")).click();
 
         //iFrame
-        driver.switchTo().frame("ifmail");
-        String txtActualText = driver.findElement(By.xpath("//h1[contains(.,'Thank you for your order with Comcast Business.')]")).getText();
-        String txtExpectedText = "Thank you for your order with Comcast Business.";
-
-        //Ketika dicoba masih error, masih tidak terbaca iframe ifmail nya jika ifinbox nya sudah terbuka.
-//        driver.switchTo().frame("iframe[id='ifmail']");
-//        String txtActualText1 = driver.findElement(By.xpath("//span[.='Brick&Bolt works relentlessly to make your construction safe & enjoyable.']")).getText();
-//        String txtExpectedText1 = "Brick&Bolt works relentlessly to make your construction safe & enjoyable.";
-//
-//        Assert.assertEquals(txtActualText, txtExpectedText);
-
+        driver.switchTo().frame("ifinbox");
+        String txtActualText = driver.findElement(By.xpath("//div[.='[Reminder] Review Request Pending']")).getText();
+        String txtExpectedText = "[Reminder] Review Request Pending";
         Assert.assertEquals(txtActualText, txtExpectedText);
+
+        driver.findElement(By.xpath("//div[@class='mctn']/div[3]/button[@class='lm']")).click();
+
+
+        //Kalau coba pakai 2 frame, dengan kodingan dibawah masih failed.
+//        driver.switchTo().frame("ifmail");
+//        String txtActualText1 = driver.findElement(By.xpath("//p[.='Welcome to NCR Aloha Cloud']")).getText();
+//        String txtExpectedText1 = "Welcome to NCR Aloha Cloud";
+//        //String txtExpectedText1 = "NCR Aloha Cloud New User Login";
+//        Assert.assertEquals(txtActualText1, txtExpectedText1);
 
         //close browser
         //driver.quit();
 
     }
-//
-//    @Test
-//    public void loginFailedTest(){
-//        //open browser
-//
-//        WebDriverManager.firefoxdriver();
-//        driver = new FirefoxDriver();
-//        driver.manage().window().maximize();
-//        driver.get("https://the-internet.herokuapp.com/login");
-//
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//        //ini untuk login
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
-//        driver.findElement(By.id("username")).sendKeys("tomsmith");
-//        driver.findElement(By.name("password")).sendKeys("SuperSecretPassword");
-//        driver.findElement(By.xpath("//button[@class='radius']")).click();
-//
-//////        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
-////        //untuk mengambil text maka ubah menjadi String
-////        String txtActualBerhasilLogin = driver.findElement(By.xpath("//h2[contains(.,'Secure Area')]")).getText();
-////        String txtExpectedBerhasilLogin = "Secure Area";
-//
-//        // System.out.println(txtNotifLogin);
-//        //Assert.assertEquals(txtActualBerhasilLogin, txtExpectedBerhasilLogin);
-//
-//        String txtError = driver.findElement(By.xpath("//div[@id='flash']")).getText();
-//        System.out.println(txtError);
-//
-//        //close browser
-//        //driver.quit();
-
-    //}
 }
