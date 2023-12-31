@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 120.0.0.0,,,31-12-2023 21:21:27,31-12-2023 21:21:42,14.682s,PASSED
+,,,,,,,
+Test Cases/demoblaze/01_sign_up,Chrome 120.0.0.0,,,31-12-2023 21:21:28,31-12-2023 21:21:34,6.797s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 21:21:28,31-12-2023 21:21:29,1.594s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 21:21:29,31-12-2023 21:21:31,1.148s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/a_Sign up""))",Chrome 120.0.0.0,,,31-12-2023 21:21:31,31-12-2023 21:21:31,0.866s,PASSED
+"setText(findTestObject(""01_sign_up/Page_STORE/inputsign-username""), username)",Chrome 120.0.0.0,,,31-12-2023 21:21:31,31-12-2023 21:21:33,1.062s,PASSED
+"setText(findTestObject(""Object Repository/01_sign_up/Page_STORE/inputsign-password""), password)",Chrome 120.0.0.0,,,31-12-2023 21:21:33,31-12-2023 21:21:33,0.655s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/button_Sign up""))",Chrome 120.0.0.0,,,31-12-2023 21:21:33,31-12-2023 21:21:34,0.343s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/button_Close""))",Chrome 120.0.0.0,,,31-12-2023 21:21:34,31-12-2023 21:21:34,0.740s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 21:21:34,31-12-2023 21:21:34,0.143s,PASSED
+,,,,,,,
+Test Cases/demoblaze/02_login,Chrome 120.0.0.0,,,31-12-2023 21:21:34,31-12-2023 21:21:42,7.703s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 21:21:34,31-12-2023 21:21:35,0.675s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 21:21:35,31-12-2023 21:21:36,0.976s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Log in""))",Chrome 120.0.0.0,,,31-12-2023 21:21:36,31-12-2023 21:21:37,0.998s,PASSED
+"setText(findTestObject(""Object Repository/02_login/Page_STORE/inputloginusername""), username)",Chrome 120.0.0.0,,,31-12-2023 21:21:37,31-12-2023 21:21:38,1.067s,PASSED
+"setText(findTestObject(""Object Repository/02_login/Page_STORE/inputloginpassword""), password)",Chrome 120.0.0.0,,,31-12-2023 21:21:38,31-12-2023 21:21:39,0.722s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/button_Log in""))",Chrome 120.0.0.0,,,31-12-2023 21:21:39,31-12-2023 21:21:39,0.413s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Welcome yuy123""))",Chrome 120.0.0.0,,,31-12-2023 21:21:39,31-12-2023 21:21:41,2.125s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Home (current)""))",Chrome 120.0.0.0,,,31-12-2023 21:21:41,31-12-2023 21:21:42,0.438s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 21:21:42,31-12-2023 21:21:42,0.205s,PASSED

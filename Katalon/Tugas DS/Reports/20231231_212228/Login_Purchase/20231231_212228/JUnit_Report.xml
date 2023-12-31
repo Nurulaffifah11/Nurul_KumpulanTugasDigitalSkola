@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Purchase" time="28.381" tests="3" failures="0" errors="0">
+   <testsuite name="Login_Purchase" tests="3" failures="0" errors="0" time="28.381" skipped="0" timestamp="31-12-2023T21:22:33" hostname="Nurul Affifah - Nurulaff" id="Test Suites/Login_Purchase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BOOTCAMP_QA ENGINEER\\Katalon\\Tugas DS\\Reports\\20231231_212228\\Login_Purchase\\20231231_212228"/>
+         <property name="logFiles" value="D:\\BOOTCAMP_QA ENGINEER\\Katalon\\Tugas DS\\Reports\\20231231_212228\\Login_Purchase\\20231231_212228\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nurul Affifah - Nurulaff"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.65"/>
+         <property name="sessionId" value="b0df7c7a641fa9c6b9986803cff3990a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/demoblaze/01_sign_up" time="7.013" classname="Test Cases/demoblaze/01_sign_up" status="PASSED">
+         <system-out><![CDATA[31-12-2023T21:22:34 - [TEST_CASE][PASSED] - Test Cases/demoblaze/01_sign_up: Test Cases/demoblaze/01_sign_up
+
+31-12-2023T21:22:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-12-2023T21:22:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-12-2023T21:22:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-12-2023T21:22:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-12-2023T21:22:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/index.html"): Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:37 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/01_sign_up/Page_STORE/a_Sign up")): Object: 'Object Repository/01_sign_up/Page_STORE/a_Sign up' is clicked on
+
+31-12-2023T21:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/01_sign_up/Page_STORE/a_Sign up' is clicked on
+
+31-12-2023T21:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("01_sign_up/Page_STORE/inputsign-username"), username): Text 'yuy123' is set on object 'Object Repository/01_sign_up/Page_STORE/inputsign-username'
+
+31-12-2023T21:22:39 - [MESSAGE][PASSED] - Text 'yuy123' is set on object 'Object Repository/01_sign_up/Page_STORE/inputsign-username'
+
+31-12-2023T21:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/01_sign_up/Page_STORE/inputsign-password"), password): Text 'yuy123' is set on object 'Object Repository/01_sign_up/Page_STORE/inputsign-password'
+
+31-12-2023T21:22:39 - [MESSAGE][PASSED] - Text 'yuy123' is set on object 'Object Repository/01_sign_up/Page_STORE/inputsign-password'
+
+31-12-2023T21:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/01_sign_up/Page_STORE/button_Sign up")): Object: 'Object Repository/01_sign_up/Page_STORE/button_Sign up' is clicked on
+
+31-12-2023T21:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/01_sign_up/Page_STORE/button_Sign up' is clicked on
+
+31-12-2023T21:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/01_sign_up/Page_STORE/button_Close")): Object: 'Object Repository/01_sign_up/Page_STORE/button_Close' is clicked on
+
+31-12-2023T21:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/01_sign_up/Page_STORE/button_Close' is clicked on
+
+31-12-2023T21:22:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-12-2023T21:22:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoblaze/02_login" time="7.533" classname="Test Cases/demoblaze/02_login" status="PASSED">
+         <system-out><![CDATA[31-12-2023T21:22:41 - [TEST_CASE][PASSED] - Test Cases/demoblaze/02_login: Test Cases/demoblaze/02_login
+
+31-12-2023T21:22:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-12-2023T21:22:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-12-2023T21:22:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-12-2023T21:22:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-12-2023T21:22:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/index.html"): Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:42 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02_login/Page_STORE/a_Log in")): Object: 'Object Repository/02_login/Page_STORE/a_Log in' is clicked on
+
+31-12-2023T21:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/02_login/Page_STORE/a_Log in' is clicked on
+
+31-12-2023T21:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/02_login/Page_STORE/inputloginusername"), username): Text 'yuy123' is set on object 'Object Repository/02_login/Page_STORE/inputloginusername'
+
+31-12-2023T21:22:44 - [MESSAGE][PASSED] - Text 'yuy123' is set on object 'Object Repository/02_login/Page_STORE/inputloginusername'
+
+31-12-2023T21:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/02_login/Page_STORE/inputloginpassword"), password): Text 'yuy123' is set on object 'Object Repository/02_login/Page_STORE/inputloginpassword'
+
+31-12-2023T21:22:45 - [MESSAGE][PASSED] - Text 'yuy123' is set on object 'Object Repository/02_login/Page_STORE/inputloginpassword'
+
+31-12-2023T21:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02_login/Page_STORE/button_Log in")): Object: 'Object Repository/02_login/Page_STORE/button_Log in' is clicked on
+
+31-12-2023T21:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/02_login/Page_STORE/button_Log in' is clicked on
+
+31-12-2023T21:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02_login/Page_STORE/a_Welcome yuy123")): Object: 'Object Repository/02_login/Page_STORE/a_Welcome yuy123' is clicked on
+
+31-12-2023T21:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/02_login/Page_STORE/a_Welcome yuy123' is clicked on
+
+31-12-2023T21:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02_login/Page_STORE/a_Home (current)")): Object: 'Object Repository/02_login/Page_STORE/a_Home (current)' is clicked on
+
+31-12-2023T21:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/02_login/Page_STORE/a_Home (current)' is clicked on
+
+31-12-2023T21:22:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-12-2023T21:22:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoblaze/03_purchase_item" time="13.646" classname="Test Cases/demoblaze/03_purchase_item" status="PASSED">
+         <system-out><![CDATA[31-12-2023T21:22:48 - [TEST_CASE][PASSED] - Test Cases/demoblaze/03_purchase_item: Test Cases/demoblaze/03_purchase_item
+
+31-12-2023T21:22:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-12-2023T21:22:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-12-2023T21:22:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-12-2023T21:22:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-12-2023T21:22:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/index.html"): Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:50 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+31-12-2023T21:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/a_Samsung galaxy s6")): Object: 'Object Repository/03_purchase_item/Page_STORE/a_Samsung galaxy s6' is clicked on
+
+31-12-2023T21:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/a_Samsung galaxy s6' is clicked on
+
+31-12-2023T21:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/a_Add to cart")): Object: 'Object Repository/03_purchase_item/Page_STORE/a_Add to cart' is clicked on
+
+31-12-2023T21:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/a_Add to cart' is clicked on
+
+31-12-2023T21:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/a_Cart")): Object: 'Object Repository/03_purchase_item/Page_STORE/a_Cart' is clicked on
+
+31-12-2023T21:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/a_Cart' is clicked on
+
+31-12-2023T21:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/button_Place Order")): Object: 'Object Repository/03_purchase_item/Page_STORE/button_Place Order' is clicked on
+
+31-12-2023T21:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/button_Place Order' is clicked on
+
+31-12-2023T21:22:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputname"), "Test"): Text 'Test' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputname'
+
+31-12-2023T21:22:56 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputname'
+
+31-12-2023T21:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputcountry"), "Indonesia"): Text 'Indonesia' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcountry'
+
+31-12-2023T21:22:57 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcountry'
+
+31-12-2023T21:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputcity"), "Bekasi"): Text 'Bekasi' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcity'
+
+31-12-2023T21:22:58 - [MESSAGE][PASSED] - Text 'Bekasi' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcity'
+
+31-12-2023T21:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputcard"), "BRI"): Text 'BRI' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcard'
+
+31-12-2023T21:22:59 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputcard'
+
+31-12-2023T21:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputmonth"), "Januari"): Text 'Januari' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputmonth'
+
+31-12-2023T21:22:59 - [MESSAGE][PASSED] - Text 'Januari' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputmonth'
+
+31-12-2023T21:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/03_purchase_item/Page_STORE/inputyear"), "2024"): Text '2024' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputyear'
+
+31-12-2023T21:23:00 - [MESSAGE][PASSED] - Text '2024' is set on object 'Object Repository/03_purchase_item/Page_STORE/inputyear'
+
+31-12-2023T21:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/button_Purchase")): Object: 'Object Repository/03_purchase_item/Page_STORE/button_Purchase' is clicked on
+
+31-12-2023T21:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/button_Purchase' is clicked on
+
+31-12-2023T21:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03_purchase_item/Page_STORE/button_OK")): Object: 'Object Repository/03_purchase_item/Page_STORE/button_OK' is clicked on
+
+31-12-2023T21:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/03_purchase_item/Page_STORE/button_OK' is clicked on
+
+31-12-2023T21:23:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-12-2023T21:23:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-12-2023T21:22:33 - [TEST_SUITE][PASSED] - Login_Purchase: Test Cases/demoblaze/03_purchase_item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

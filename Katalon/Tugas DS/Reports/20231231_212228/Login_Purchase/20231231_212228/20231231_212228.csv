@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Purchase,Chrome 120.0.0.0,,,31-12-2023 21:22:33,31-12-2023 21:23:02,28.381s,PASSED
+,,,,,,,
+Test Cases/demoblaze/01_sign_up,Chrome 120.0.0.0,,,31-12-2023 21:22:34,31-12-2023 21:22:41,7.013s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 21:22:34,31-12-2023 21:22:35,1.577s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 21:22:35,31-12-2023 21:22:37,1.255s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/a_Sign up""))",Chrome 120.0.0.0,,,31-12-2023 21:22:37,31-12-2023 21:22:38,0.885s,PASSED
+"setText(findTestObject(""01_sign_up/Page_STORE/inputsign-username""), username)",Chrome 120.0.0.0,,,31-12-2023 21:22:38,31-12-2023 21:22:39,1.072s,PASSED
+"setText(findTestObject(""Object Repository/01_sign_up/Page_STORE/inputsign-password""), password)",Chrome 120.0.0.0,,,31-12-2023 21:22:39,31-12-2023 21:22:39,0.715s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/button_Sign up""))",Chrome 120.0.0.0,,,31-12-2023 21:22:39,31-12-2023 21:22:40,0.359s,PASSED
+"click(findTestObject(""Object Repository/01_sign_up/Page_STORE/button_Close""))",Chrome 120.0.0.0,,,31-12-2023 21:22:40,31-12-2023 21:22:40,0.736s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 21:22:40,31-12-2023 21:22:41,0.197s,PASSED
+,,,,,,,
+Test Cases/demoblaze/02_login,Chrome 120.0.0.0,,,31-12-2023 21:22:41,31-12-2023 21:22:48,7.533s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 21:22:41,31-12-2023 21:22:42,0.815s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 21:22:42,31-12-2023 21:22:42,0.796s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Log in""))",Chrome 120.0.0.0,,,31-12-2023 21:22:42,31-12-2023 21:22:43,0.750s,PASSED
+"setText(findTestObject(""Object Repository/02_login/Page_STORE/inputloginusername""), username)",Chrome 120.0.0.0,,,31-12-2023 21:22:43,31-12-2023 21:22:44,1.068s,PASSED
+"setText(findTestObject(""Object Repository/02_login/Page_STORE/inputloginpassword""), password)",Chrome 120.0.0.0,,,31-12-2023 21:22:44,31-12-2023 21:22:45,0.685s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/button_Log in""))",Chrome 120.0.0.0,,,31-12-2023 21:22:45,31-12-2023 21:22:45,0.373s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Welcome yuy123""))",Chrome 120.0.0.0,,,31-12-2023 21:22:45,31-12-2023 21:22:47,2.020s,PASSED
+"click(findTestObject(""Object Repository/02_login/Page_STORE/a_Home (current)""))",Chrome 120.0.0.0,,,31-12-2023 21:22:47,31-12-2023 21:22:48,0.667s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 21:22:48,31-12-2023 21:22:48,0.225s,PASSED
+,,,,,,,
+Test Cases/demoblaze/03_purchase_item,Chrome 120.0.0.0,,,31-12-2023 21:22:48,31-12-2023 21:23:02,13.646s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-12-2023 21:22:48,31-12-2023 21:22:49,0.649s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.0.0,,,31-12-2023 21:22:49,31-12-2023 21:22:50,0.787s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/a_Samsung galaxy s6""))",Chrome 120.0.0.0,,,31-12-2023 21:22:50,31-12-2023 21:22:52,2.118s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/a_Add to cart""))",Chrome 120.0.0.0,,,31-12-2023 21:22:52,31-12-2023 21:22:53,1.052s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/a_Cart""))",Chrome 120.0.0.0,,,31-12-2023 21:22:53,31-12-2023 21:22:54,1.241s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/button_Place Order""))",Chrome 120.0.0.0,,,31-12-2023 21:22:54,31-12-2023 21:22:55,1.254s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputname""), ""Test"")",Chrome 120.0.0.0,,,31-12-2023 21:22:55,31-12-2023 21:22:56,1.084s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputcountry""), ""Indonesia"")",Chrome 120.0.0.0,,,31-12-2023 21:22:56,31-12-2023 21:22:57,0.701s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputcity""), ""Bekasi"")",Chrome 120.0.0.0,,,31-12-2023 21:22:57,31-12-2023 21:22:58,0.697s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputcard""), ""BRI"")",Chrome 120.0.0.0,,,31-12-2023 21:22:58,31-12-2023 21:22:59,0.674s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputmonth""), ""Januari"")",Chrome 120.0.0.0,,,31-12-2023 21:22:59,31-12-2023 21:22:59,0.716s,PASSED
+"setText(findTestObject(""Object Repository/03_purchase_item/Page_STORE/inputyear""), ""2024"")",Chrome 120.0.0.0,,,31-12-2023 21:22:59,31-12-2023 21:23:00,0.707s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/button_Purchase""))",Chrome 120.0.0.0,,,31-12-2023 21:23:00,31-12-2023 21:23:00,0.354s,PASSED
+"click(findTestObject(""Object Repository/03_purchase_item/Page_STORE/button_OK""))",Chrome 120.0.0.0,,,31-12-2023 21:23:00,31-12-2023 21:23:02,1.382s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-12-2023 21:23:02,31-12-2023 21:23:02,0.165s,PASSED
